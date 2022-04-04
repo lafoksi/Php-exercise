@@ -5,7 +5,7 @@
 
 ![php-pdo](https://user-images.githubusercontent.com/96316784/161591401-5e20f851-bd11-4c11-b60f-6f88a18c1d86.svg)
 >
-## Defined constants:
+## Defining constants::
 * DB-Hostname: `define('DBHOST','localhost');`
 * DB-User: `define('DBUSER','root');`
 * DB-Password: `define('DBPASSWORD','your-password');`
