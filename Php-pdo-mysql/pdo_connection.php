@@ -3,26 +3,26 @@
 //Database configs
 
 //DB-Hostname
-define('dbhost','localhost');
+define('DBHOST','localhost');
 
 //DB-User
-define('dbuser','root');
+define('DBUSER','root');
 
 //DB-Password
-define('dbpassword','your-password');
+define('DBPASSWORD','your-password');
 
 //DB-name
-define('dbname','your-database-name');
+define('DBNAME','your-database-name');
 
 class DB {
 
     private $connection;
     private static $_instance;
 
-    private $dbhost = dbhost;
-    private $dbuser = dbuser;
-    private $dbpass = dbpassword;
-    private $dbname = dbname;
+    private $dbhost = DBHOST;
+    private $dbuser = DBUSER;
+    private $dbpass = DBPASSWORD;
+    private $dbname = DBNAME;
 
     //Get an instance of the database @return Instance
 
