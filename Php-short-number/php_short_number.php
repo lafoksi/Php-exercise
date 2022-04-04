@@ -26,6 +26,6 @@ function number_format_short($n, $precision = 1) {
   return $n_format."".$suffix;
 
 }
-echo Number_format_short(20000,0); //20K
+echo number_format_short(20000,0); //20K
 echo PHP_EOL;
-echo Number_format_short(20000,1); //20.0K
+echo number_format_short(20000,1); //20.0K
